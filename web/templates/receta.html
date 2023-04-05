@@ -1,0 +1,266 @@
+{% extends "base.html" %}
+
+{% block 'content' %}
+
+<div class="container mt-3">
+    <div class="text-center col-12">
+      <h1 class="fw-light mb-4 text-secondary">RECETAS</h1>
+    </div>
+    <div class="stepwizard">
+        <div class="stepwizard-row setup-panel">
+
+            <div class="stepwizard-step col-xs-12">
+                <a href="#step-1" type="button" class="btn btn-primary btn-circle text-white" disabled="disabled">1</a>
+                <p class="mr-5"><small>Flan de galletas María</small></p>
+                <img class="" style="height: 10em" src="https://imag.bonviveur.com/presentacion-principal-del-flan-de-galletas-maria.webp" alt="">
+            </div>
+
+            <div class="stepwizard-step col-xs-12">
+                <a href="#step-2" type="button" class="btn btn-danger btn-circle text-white" disabled="disabled">2</a>
+                <p><small>Flan de huevo casero</small></p>
+                <img class="" style="height: 10em" src="https://imag.bonviveur.com/presentacion-principal-del-flan-de-huevo.webp" alt="">
+            </div>
+
+            <div class="stepwizard-step col-xs-12">
+                <a href="#step-3" type="button" class="btn btn-dark btn-circle text-white" disabled="disabled">3</a>
+                <p><small>Flan de chocolate</small></p>
+                <img class="" style="height: 10em" src="https://imag.bonviveur.com/presentacion-principal-del-flan-de-chocolate.webp" alt="">
+            </div>
+
+            <div class="stepwizard-step col-xs-12">
+                <a href="#step-4" type="button" class="btn btn-warning btn-circle text-white" disabled="disabled">4</a>
+                <p><small>Flan de queso casero</small></p>
+                <img class="" style="height: 10em" src="https://imag.bonviveur.com/flan-de-queso-en-el-plato.webp" alt="">
+            </div>
+
+             <div class="stepwizard-step col-xs-12">
+                <a href="#step-5" type="button" class="btn btn-info btn-circle text-white" disabled="disabled">5</a>
+                <p><small>Flan de café</small></p>
+                <img class="" style="height: 10em" src="https://imag.bonviveur.com/presentacion-principal-del-flan-de-cafe.webp" alt="">
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <form class="mt-5" role="form">
+
+        <div class="panel panel-primary setup-content" id="step-1">
+            <div class="panel-heading text-center col-12">
+                 <h1 class="panel-title text-primary fw-light">Flan de galletas María</h1>
+            </div>
+            <div class="panel-body mt-4 row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <h5 class="fw-light"><u>Información de la receta</u></h5>
+                <li>Tiempo de preparación: 15 minutos</li>
+                <li>Tiempo de cocción: 35 minutos</li>
+                <li>Tiempo total: 50 minutos</li>
+                <li>Raciones: 6</li>
+                <li>Categoría: postre</li>
+                <li>Tipo de cocina: española</li>
+                <li>Calorías: 176 kcal por cada 100 g</li>
+              </div>
+
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <h5 class="fw-light"><u>Ingredientes</u></h5>
+                <li>500 ml de leche entera</li>
+                <li>4 huevos</li>
+                <li>130 g de azúcar</li>
+                <li>60 g de azúcar (para hacer el caramelo)</li>
+                <li>100 g de galletas María</li>
+              </div>
+
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <h5 class="fw-light"><u>Preparación</u></h5>
+                <ol>
+                  <li>Preparar el caramelo para recubrir el interior de las flaneras</li>
+                  <li>En un bol mezclar los huevos con el azúcar sin meterles aire</li>
+                  <li>Triturar o hacer polvo las galletas María</li>
+                  <li>Precalentar el horno a 180 ºC con calor arriba y abajo</li>
+                  <li>Calentar la leche y añadirla poco a poco a la mezcla de huevos y azúcar junto con las galletas María en polvo</li>
+                  <li>Rellenar las flaneras y hornear al baño María durante 35 minutos</li>
+                  <li>Dejar enfriar los flanes y reservar tapados en la nevera durante 4 hora</li>
+                  <li>Desmoldar los flanes y servir en platos junto con alguna galleta María para decorar</li>
+                </ol>
+              </div>
+            </div>
+        </div>
+
+        <div class="panel panel-primary setup-content" id="step-2">
+          <div class="panel-heading text-center col-12">
+               <h1 class="panel-title text-danger fw-light">Flan de huevo casero</h1>
+          </div>
+          <div class="panel-body mt-4 row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+              <h5 class="fw-light"><u>Información de la receta</u></h5>
+              <li>Tiempo de preparación: 15 minutos</li>
+              <li>Tiempo de cocción: 35 minutos</li>
+              <li>Tiempo total: 50 minutos</li>
+              <li>Raciones: 6</li>
+              <li>Categoría: postre</li>
+              <li>Tipo de cocina: internacional</li>
+              <li>Calorías: 234 kcal por ración</li>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+              <h5 class="fw-light"><u>Ingredientes</u></h5>
+              <li>500 ml de leche entera</li>
+              <li>4 huevos L</li>
+              <li>150 g de azúcar</li>
+              <li>60 g de azúcar (para hacer el caramelo)</li>
+              <li>1 cucharadita de esencia de vainilla</li>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+              <h5 class="fw-light"><u>Preparación</u></h5>
+              <ol>
+                <li>En un bol remover los huevos con el azúcar sin meterles aire</li>
+                <li>Poner el azúcar en una sartén con unas gotas de zumo de limón para hacer el caramelo. Cuando se haga líquido y se dore repartir en el fondo de las flaneras</li>
+                <li>Calentar la leche con la esencia de vainilla</li>
+                <li>Mezclar poco a poco la leche caliente con los huevos y el azúcar sin batir para que no se hagan burbujas de aire</li>
+                <li>Repartir la mezcla en las flaneras con ayuda de un cazo</li>
+                <li>Poner en una fuente las flaneras al baño María y meter al horno 35 minutos a una temperatura de 180 ºC</li>
+                <li>Pinchar un flan y si sale limpia la aguja o el palillo estarán listos</li>
+                <li>Sacar las flaneras del baño María y reservar en una tabla hasta que templen</li>
+                <li>Enfriar los flanes tapados con film en la nevera hasta la hora de consumirlos</li>
+                <li>Desmoldar el flan y presentar acompañado de nata montada y el caramelo</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-primary setup-content" id="step-3">
+          <div class="panel-heading text-center col-12">
+               <h1 class="panel-title text-dark fw-light">Flan de chocolate</h1>
+          </div>
+          <div class="panel-body mt-4 row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+              <h5 class="fw-light"><u>Información de la receta</u></h5>
+              <li>Tiempo de preparación: 15 minutos</li>
+              <li>Tiempo de cocción: 35 minutos</li>
+              <li>Tiempo total: 50 minutos</li>
+              <li>Raciones: 6</li>
+              <li>Categoría: postre</li>
+              <li>Tipo de cocina: española</li>
+              <li>Calorías: 246 kcal por ración</li>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+              <h5 class="fw-light"><u>Ingredientes</u></h5>
+              <li>4 huevos</li>
+              <li>500 ml de leche</li>
+              <li>150 g de azúcar</li>
+              <li>50 g de azúcar (para hacer el caramelo)</li>
+              <li>2 cucharadas de cacao 100% puro en polvo (tipo Valor)</li>
+              <li>Limón (unas gotas para hacer el caramelo)</li>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+              <h5 class="fw-light"><u>Preparación</u></h5>
+              <ol>
+                <li>En un bol mezclar el azúcar, los huevos y el cacao</li>
+                <li>Hacer el caramelo y rellenar el fondo de las flaneras</li>
+                <li>Calentar leche y mezclarla con los ingredientes que tenemos en el bol poco a poco removiendo sin que coja aire la mezcla</li>
+                <li>Rellenar las flaneras y meter en el horno al baño María a 180 ºC con calor arriba y abajo durante 30-40 minutos</li>
+                <li>Sacar del horno y dejar enfriar antes de meter en la nevera</li>
+                <li>Servir los flanes fríos con el acompañamiento que más nos guste</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-primary setup-content" id="step-4">
+          <div class="panel-heading text-center col-12">
+               <h1 class="panel-title text-warning fw-light">Flan de queso casero</h1>
+          </div>
+          <div class="panel-body mt-4 row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+              <h5 class="fw-light"><u>Información de la receta</u></h5>
+              <li>Tiempo de preparación: 10 minutos</li>
+              <li>Tiempo de cocinado: 1 hora</li>
+              <li>Tiempo total: 1 hora y 10 minutos</li>
+              <li>Raciones: 8</li>
+              <li>Categoría: postre</li>
+              <li>Tipo de cocina: española</li>
+              <li>Calorías por ración (kcal): 410</li>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+              <h5 class="fw-light"><u>Ingredientes</u></h5>
+              <p>Para el caramelo:</p>
+              <li>125 g de azúcar blanco</li>
+              <li>65 g de agua</li>
+              <li>Zumo de medio limón</li>
+              <p class="mt-4">Para el flan de queso:</p>
+              <li>5 huevos M</li>
+              <li>200 g de azúcar blanco</li>
+              <li>300 g de queso crema</li>
+              <li>500 ml de leche entera</li>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+              <h5 class="fw-light"><u>Preparación</u></h5>
+              <ol>
+                <li>Calentamos el azúcar con el agua a fuego medio</li>
+                <li>Caramelizamos hasta que tenga un color miel</li>
+                <li>Añadimos el zumo de medio limón</li>
+                <li>Vertemos el caramelo en las flaneras</li>
+                <li>Batimos los huevos con el azúcar</li>
+                <li>Agregamos el queso crema</li>
+                <li>Echamos la leche</li>
+                <li>Rellenamos las flaneras</li>
+                <li>Preparamos un baño maría</li>
+                <li>Horneamos 1 hora, dejamos enfriar a temperatura ambiente y conservamos, al menos 4 horas, en la nevera</li>
+              </ol>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="panel panel-primary setup-content" id="step-5">
+          <div class="panel-heading text-center col-12">
+               <h1 class="panel-title text-info fw-light">Flan de café</h1>
+          </div>
+          <div class="panel-body mt-4 row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+              <h5 class="fw-light"><u>Información de la receta</u></h5>
+              <li>Tiempo de preparación: 15 minutos</li>
+              <li>Tiempo de cocción: 45 minutos</li>
+              <li>Tiempo total: 1 hora</li>
+              <li>Raciones: 6</li>
+              <li>Categoría: postre</li>
+              <li>Tipo de cocina: internacional</li>
+              <li>Calorías: 183 kcal por ración</li>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+              <h5 class="fw-light"><u>Ingredientes</u></h5>
+              <li>4 huevos</li>
+              <li>200 ml de café (reposado)</li>
+              <li>300 ml de leche entera</li>
+              <li>100 g de azúcar</li>
+              <li>50 g azúcar (para el caramelo)</li>
+              <li>2 cucharadas de agua (para el caramelo)</li>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+              <h5 class="fw-light"><u>Preparación</u></h5>
+              <ol>
+                <li>Precalentar el horno a 180º C</li>
+                <li>Hacer el caramelo y repartirlo en las flaneras</li>
+                <li>Mezclar los huevos, la leche, el café y el azúcar y llenar las flaneras</li>
+                <li>Poner las flaneras en una fuente con agua para hacer los flanes al baño María</li>
+                <li>Meter al horno durante 45 min a 180º C</li>
+                <li>Sacar, dejar que tomen temperatura ambiente fuera del agua y enfriar en la nevera para servir</li>
+                <li>Desmoldar y servir el flan tal cual o acompañado de nata</li>
+              </ol>
+            </div>
+          </div>
+
+        </div>
+
+    </form>
+</div>
+
+{% endblock %}
