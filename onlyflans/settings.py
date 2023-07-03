@@ -80,17 +80,27 @@ WSGI_APPLICATION = 'onlyflans.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'onlyflans',
-        'USER': 'postgres',
-        'PASSWORD': 'j1mm4jcl',
-        'HOST': 'localhost',
-        'PORT': '5433',
+        'NAME': 'onlyflans_cg11',
+        'USER': 'onlyflans_cg11_user',
+        'PASSWORD': 'jY7i3KnNGqkLt71kb7j645rBO9axcFSP',
+        'HOST': 'dpg-cgmvd3fdvk4k0170ugfg-a',
+        'PORT': '5432',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'onlyflans',
+#         'USER': 'postgres',
+#         'PASSWORD': 'j1mm4jcl',
+#         'HOST': 'localhost',
+#         'PORT': '5433',
+#     }
+# }
 
 
 # Password validation
