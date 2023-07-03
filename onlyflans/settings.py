@@ -82,10 +82,10 @@ WSGI_APPLICATION = 'onlyflans.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'onlyflans_cg11',
-        'USER': 'onlyflans_cg11_user',
-        'PASSWORD': 'jY7i3KnNGqkLt71kb7j645rBO9axcFSP',
-        'HOST': 'dpg-cgmvd3fdvk4k0170ugfg-a',
+        'NAME': 'onlyflans_quw2',
+        'USER': 'onlyflans_quw2_user',
+        'PASSWORD': 'voA76P6NqcM4RtMxWu8Gf29bXsYcBE9m',
+        'HOST': 'dpg-cihlvll9aq012ev7bmt0-a',
         'PORT': '5432',
     }
 }
