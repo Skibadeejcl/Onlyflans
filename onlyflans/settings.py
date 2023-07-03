@@ -79,16 +79,16 @@ WSGI_APPLICATION = 'onlyflans.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# postgresql://postgres:Mt8XYdjZPcqHutZ93rmf@containers-us-west-44.railway.app:7448/railway
+
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
+        'NAME': 'onlyflans',
         'USER': 'postgres',
-        'PASSWORD': 'Mt8XYdjZPcqHutZ93rmf',
-        'HOST': 'containers-us-west-44.railway.app',
-        'PORT': '7448',
+        'PASSWORD': 'j1mm4jcl',
+        'HOST': 'localhost',
+        'PORT': '5433',
     }
 }
 
