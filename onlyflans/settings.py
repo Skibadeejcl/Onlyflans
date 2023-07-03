@@ -79,14 +79,13 @@ WSGI_APPLICATION = 'onlyflans.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'onlyflans_cg11',
         'USER': 'onlyflans_cg11_user',
         'PASSWORD': 'jY7i3KnNGqkLt71kb7j645rBO9axcFSP',
-        'HOST': 'dpg-cgmvd3fdvk4k0170ugfg-a',
+        'HOST': 'dpg-cgmvd3fdvk4k0170ugfg-a.ohio-postgres.render.com',
         'PORT': '5432',
     }
 }
