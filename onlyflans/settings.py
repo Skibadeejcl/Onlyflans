@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-zb%3242b(yxp%ip8s--2hth6upa(22!j*_d71c_^57+a0@g*0t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = []
 
 STATICFILES_DIRS=['C:/Users/eduar/Dropbox/PC (2)/Desktop/Curso Python/10 Django/onlyflans/web/static']
 
@@ -85,7 +85,7 @@ DATABASES = {
         'NAME': 'onlyflans_cg11',
         'USER': 'onlyflans_cg11_user',
         'PASSWORD': 'jY7i3KnNGqkLt71kb7j645rBO9axcFSP',
-        'HOST': 'dpg-cgmvd3fdvk4k0170ugfg-a.ohio-postgres.render.com',
+        'HOST': 'dpg-cgmvd3fdvk4k0170ugfg-a',
         'PORT': '5432',
     }
 }
