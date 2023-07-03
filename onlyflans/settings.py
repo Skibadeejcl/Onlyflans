@@ -11,6 +11,9 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
+import dj_database_url
+
+import os
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -81,14 +84,7 @@ WSGI_APPLICATION = 'onlyflans.wsgi.application'
 
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'onlyflans_cg11',
-        'USER': 'onlyflans_cg11_user',
-        'PASSWORD': 'jY7i3KnNGqkLt71kb7j645rBO9axcFSP',
-        'HOST': 'dpg-cgmvd3fdvk4k0170ugfg-a',
-        'PORT': '5432',
-    }
+    "default": dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
 
 # DATABASES = {
