@@ -85,7 +85,7 @@ DATABASES = {
         'NAME': 'onlyflans_quw2',
         'USER': 'onlyflans_quw2_user',
         'PASSWORD': 'voA76P6NqcM4RtMxWu8Gf29bXsYcBE9m',
-        'HOST': 'dpg-cihlvll9aq012ev7bmt0-a',
+        'HOST': 'dpg-cihlvll9aq012ev7bmt0-a.oregon-postgres.render.com',
         'PORT': '5432',
     }
 }
