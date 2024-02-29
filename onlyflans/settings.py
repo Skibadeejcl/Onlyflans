@@ -84,16 +84,23 @@ WSGI_APPLICATION = 'onlyflans.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'onlyflans_quw2',
-        'USER': 'onlyflans_quw2_user',
-        'PASSWORD': 'voA76P6NqcM4RtMxWu8Gf29bXsYcBE9m',
-        'HOST': 'dpg-cihlvll9aq012ev7bmt0-a.oregon-postgres.render.com',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-db_from_env = dj_database_url.config(conn_max_age=600)
-DATABASES['default'].update(db_from_env)
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'onlyflans_quw2',
+#         'USER': 'onlyflans_quw2_user',
+#         'PASSWORD': 'voA76P6NqcM4RtMxWu8Gf29bXsYcBE9m',
+#         'HOST': 'dpg-cihlvll9aq012ev7bmt0-a.oregon-postgres.render.com',
+#         'PORT': '5432',
+#     }
+# }
+# db_from_env = dj_database_url.config(conn_max_age=600)
+# DATABASES['default'].update(db_from_env)
 
 # DATABASES = {
 #     'default': {
